@@ -8,7 +8,9 @@ License:	LGPLv2
 Group:		System/Internationalization
 BuildRequires:	cmake
 BuildRequires:	extra-cmake-modules
+BuildRequires:	fcitx5-devel
 BuildRequires:	lib64hangul-devel
+BuildRequires:	lib64gettext-devel
 
 %description
 Hangul (Korean IM) plugin for fcitx5.
