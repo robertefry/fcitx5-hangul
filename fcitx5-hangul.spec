@@ -2,13 +2,13 @@ Summary:	Hangul (Korean IM) plugin for fcitx5
 Name:		fcitx5-hangul
 Version:	5.1.6
 Release:	1
-Source0:    https://github.com/fcitx/fcitx5-hangul/archive/refs/tags/%{version}.tar.gz
+Source0:	https://github.com/fcitx/fcitx5-hangul/archive/refs/tags/%{version}.tar.gz
 URL:		https://github.com/fcitx/fcitx5-hangul
 License:	LGPLv2
 Group:		System/Internationalization
 BuildRequires:	cmake
-BuildRequires:  extra-cmake-modules
-BuildRequires:  lib64hangul-devel
+BuildRequires:	extra-cmake-modules
+BuildRequires:	lib64hangul-devel
 
 %description
 Hangul (Korean IM) plugin for fcitx5.
